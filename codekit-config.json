@@ -11,17 +11,6 @@
       "outputAbbreviatedPath" : "\/html\/footer.html",
       "fileType" : 65536
     },
-    "\/build\/js\/libraries.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
-      "fileType" : 64
-    },
     "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -30,6 +19,17 @@
       "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/app\/_\/img\/introduction_to_ee.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/introduction_to_ee.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/introduction_to_ee.png",
+      "initialSize" : 122566,
+      "fileType" : 8192
     },
     "\/app\/_\/img\/blog.png" : {
       "ignoreWasSetByUser" : 0,
@@ -41,6 +41,17 @@
       "outputAbbreviatedPath" : "\/app\/_\/img\/blog.png",
       "initialSize" : 160551,
       "fileType" : 8192
+    },
+    "\/build\/js\/libraries.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/js\/libraries.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/_\/js\/libraries.min.js",
+      "fileType" : 64
     },
     "\/build\/less\/app.less" : {
       "ignoreWasSetByUser" : 0,
@@ -54,17 +65,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/app\/_\/img\/introduction_to_ee.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/img\/introduction_to_ee.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/_\/img\/introduction_to_ee.png",
-      "initialSize" : 122566,
-      "fileType" : 8192
     },
     "\/app\/lib\/jquery\/1.10.1\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -132,17 +132,6 @@
       "initialSize" : 12799,
       "fileType" : 8192
     },
-    "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
-      "fileType" : 64
-    },
     "\/build\/kits\/partials\/header.kit" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -151,6 +140,17 @@
       "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
       "outputAbbreviatedPath" : "\/html\/header.html",
       "fileType" : 65536
+    },
+    "\/app\/_\/js\/app.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 2,
+      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
+      "fileType" : 64
     },
     "\/build\/less\/partials\/viewport.less" : {
       "ignoreWasSetByUser" : 1,
@@ -164,94 +164,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/build\/less\/globals\/fonts.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/app\/_\/js\/app.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/js\/app.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 2,
-      "outputAbbreviatedPath" : "\/app\/js\/app.min.min.js",
-      "fileType" : 64
-    },
-    "\/app\/_\/img\/importing_members_to_profile.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
-      "initialSize" : 162575,
-      "fileType" : 8192
-    },
-    "\/build\/less\/globals\/defaults.less" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
-      "outputStyle" : 2,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/build\/kits\/partials\/navlist.kit" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/navlist.kit",
-      "outputAbbreviatedPath" : "\/html\/navlist.html",
-      "fileType" : 65536
-    },
-    "\/build\/kits\/index.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
-      "outputAbbreviatedPath" : "\/app\/index.html",
-      "fileType" : 65536
-    },
-    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
-      "initialSize" : 8777,
-      "fileType" : 8192
-    },
-    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
-      "initialSize" : 12764,
-      "fileType" : 8192
     },
     "\/app\/_\/img\/view-members.png" : {
       "ignoreWasSetByUser" : 0,
@@ -273,6 +185,94 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/app\/_\/img\/manual_register.png",
       "initialSize" : 153370,
+      "fileType" : 8192
+    },
+    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings-white.png",
+      "initialSize" : 8777,
+      "fileType" : 8192
+    },
+    "\/build\/less\/globals\/defaults.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/defaults.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/app\/css\/defaults.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
+      "fileType" : 64
+    },
+    "\/build\/kits\/index.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/build\/kits\/index.kit",
+      "outputAbbreviatedPath" : "\/app\/index.html",
+      "fileType" : 65536
+    },
+    "\/build\/less\/globals\/fonts.less" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/less\/globals\/fonts.less",
+      "outputStyle" : 2,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/app\/css\/fonts.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/app\/lib\/bootstrap\/2.3.2\/img\/glyphicons-halflings.png",
+      "initialSize" : 12764,
+      "fileType" : 8192
+    },
+    "\/build\/kits\/partials\/navlist.kit" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/navlist.kit",
+      "outputAbbreviatedPath" : "\/html\/navlist.html",
+      "fileType" : 65536
+    },
+    "\/app\/_\/img\/importing_members_to_profile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
+      "initialSize" : 162575,
       "fileType" : 8192
     },
     "\/app\/lib\/normalize\/2.1.2\/normalize.css" : {
@@ -396,15 +396,6 @@
       "initialSize" : 133263,
       "fileType" : 8192
     },
-    "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/app\/lib\/jquery\/2.0.2\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -415,6 +406,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/app\/js\/jquery.min.min.js",
       "fileType" : 64
+    },
+    "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.1.1\/css\/font-awesome-ie7.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
