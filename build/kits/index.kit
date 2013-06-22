@@ -1,18 +1,198 @@
 <!-- @include "partials/header" -->
-    	
-    	<div id="viewport">
-    	
-			<h1>Welcome to CodeKit Kickoff</h1>
-			
-			<p>
-				This viewport currently has a .debug() mixin applied to it. Remove it from 
-				"build/less/partials/viewport.less" to begin.
-			</p>
-			
-			<p>
-				Happy coding...
-			</p>
 
-    	</div>		
-    	
-<!-- @include "partials/footer" -->		
+<!-- @include "partials/navmobile" -->
+
+<!-- @include "partials/sidebar" -->
+
+<div id="viewport" class="container-fluid">
+	<div class="row-fluid">
+
+        <div class="span9">
+            <h1>Website Administration</h1>
+
+            <!-- Overview -->
+
+              <h2 id="overview">Overview</h2>
+              <div class="row-fluid overview">
+                <div class="span7">
+                  <img src="img/overview.png" alt="Homepage"></div>
+                <div class="span5">
+                  <h3>Welcome to your custom user guide</h3>
+                  <p>This guide will teach you how to manage and administer <a href="http://www.acdbio.com">http://www.acdbio.com</a>.</p> Use the navigation menu on the left to skip to different categories throughout the guide.
+                </div>
+              </div>
+
+              <!-- Logging into the Dashboard -->
+
+              <h2 id="logging-into-dash">Logging into the Dashboard</h2>
+
+                <div class="row-fluid logging-into-dash">
+                  <div class="span7">
+                    <img src="img/loginwindow.png" alt="Logging in to the Dashboard">
+                  </div>
+                  <div class="span5">
+                    <p>To log into the dashboard of your website, point your browser to <a href="http://www.acdbio.com/system/">http://www.acdbio.com/system/</a> and use the login credentials you were provided.</p>
+
+                    <div class="alert alert-info">
+                      Note: Never give out this password to unauthorized users! If you change your password in the future, please make sure you use a strong password.
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Introduction to Expression Engine -->
+
+              <h2 id="intro-to-ee">Introduction to Expression Engine</h2>
+
+                <div class="row-fluid intro-to-ee">
+                  <div class="span7">
+                    <img src="img/introduction_to_ee.png" alt="The Dashboard">
+                  </div>
+                  <div class="span5">
+                    <p><a href="http://www.acdbio.com">Acdbio.com</a> is powered by a Content Management System (CMS) called Expression Engine. From this dashboard, you will be able to add/remove content, process orders, and manage users.</p>
+                    <div class="alert alert-info">
+                      Remember: You are managing a live website! Changes you make will be immediately viewable by your users, so take extra care before committing any changes.
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Manging your Users -->
+
+              <h2 id="managing-members">Managing Members</h2>
+
+                <div class="row-fluid managing-members">
+                  <div class="span7">
+                    <img src="img/view-members.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Viewing all members</p>
+                  </div>
+                  <div class="span5">
+                    <p>To manage your registered members, select "Members" from the top menu in the dashboard. The most important options in this menu are:</p>
+                      <ul>
+                        <li>View All</li>
+                        <li>Register Member</li>
+                        <li>User Banning</li>
+                      </ul>
+                  </div>
+                </div>
+
+                <!-- Manually registering users -->
+
+                <div class="row-fluid manually-register">
+                  <div class="span7">
+                    <img src="img/manual_register.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Manually registering a User</p>
+                  </div>
+                  <div class="span5">
+                    <h3>Manually registering a user</h3>
+                    <p>1. To manually register a member, select Members > Register Members, and fill out the corresponding fields. Required fields are marked with a <span class="red-star">*</span>.</p>
+                  </div>
+                </div>
+
+
+                 <div class="row-fluid importing-users">
+                  <div class="span7">
+                    <img src="img/addons_modules_profile.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Using Profile:Edit to import a user to the customer base</p>
+                  </div>
+                  <div class="span5">
+                    <p>2. The user then must be imported into the system as a customer which takes a few additional steps. Select <strong>Add-Ons > Modules</strong> from the top-menu. From the list on the left, select "Profile:Edit".</p>
+                  </div>
+                </div>
+
+                <div class="row-fluid">
+                  <div class="span7">
+                    <img src="img/importing_members_to_profile.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Importing a user to the customer base</p>
+                  </div>
+                  <div class="span5">
+                    <p>3. After selecting "Profile:Edit" from the modules page, select "Utilities near the top of the page. On this page, select "Start" next to "Create Profile entires for existing members who do not already have a Profile" and the system will import all of the members into your customer base who have not already been imported.</p>
+                  </div>
+                </div>
+
+              <!-- Moderating Comments -->
+
+              <h2 id="moderating-comments">Moderating Comments</h2>
+                <div class="row-fluid moderating-comments">
+                  <div class="span7">
+                    <img src="img/comment_moderation.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Moderating Comments</p>
+                  </div>
+                  <div class="span5">
+                    <p>Moderating comments on your blog is very simple. Select "Comments" from the top menu in the dashboard. From this page you can view all of the comments, and quickly change the status of comments by selecting the check box on the right, changing the status in the dropdown menu and clicking "Submit."</p>
+                  </div>
+                </div>
+
+              <h2 id="clearing-the-cache">Clearing the Cache</h2>
+
+                <div class="row-fluid clearing-the-cache">
+                  <div class="span7">
+                    <img src="img/ce-cache-home.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: CE Cache Home</p>
+                  </div>
+                  <div class="span5">
+                    <p>ACDbio.com uses an advanced caching system to rapidly deliver pages to users by saving a version of the page, rather than rebuilding each page everytime a user views the website. However, when you are making changes on the website, you won't be able to see the changes reflected until the server has created an updated version of the page in the cache. In order to access the system to clear the cache, select <strong>Add-ons > Modules</strong> from the top menu in the dashboard. Then, select "CE Cache from the list of Add-ons. Alternatively, <a href="http://www.acdbio.com/system/index.php?S=0c2a7ac126be80843c6f8e7e34a3f1367176c0c4&D=cp&C=addons_modules&M=show_module_cp&module=ce_cache">you can use this link</a>.</p>
+                  </div>
+                </div>
+
+                <div class="row-fluid partial-cache">
+                  <div class="span7">
+                    <img src="img/ce-cache-partial.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Partially clearing the cache to reflect your changes</p>
+                  </div>
+                  <div class="span5">
+                    <p>When deciding to clear the cache, generally you only want to clear the portion of the site you would like to refresh. To clear only parts of the cache, select "View Items" next to the "File" Driver. Then, select the "Local" folder. Here you will see a list of the temporarily cached files. From here you want to find the folder of the section you are trying to clear (for instance, /about/blog/) and select "Delete Children." This will delete the cached files for that section that will then be re-generated the next time a user loads that page.</p>
+                    <div class="alert alert-info">
+                      Note: The entire cache can be cleared from the CE-Cache home by selecting "Clear entire Cache for All Drivers" then "Yes I'm Sure, Clear all Driver Caches." Remember, this will clear the cache for the entire website, and all pages will not be initially cached!
+                    </div>
+
+                  </div>
+                </div>
+
+
+            <h1>Managing the Content</h1>
+              <h2 id="blog">Blog</h2>
+                <div class="row-fluid moderating-comments">
+                  <div class="span7">
+                    <img src="img/blog.png" alt="View all members.">
+                    <p class="caption pull-right">Figure X.X: Adding and Editing Blog Posts</p>
+                  </div>
+                  <div class="span5">
+                    <p>To add a new blog post, select <strong>Content > Publish > Blog</strong>. To edit a blog post that has already been posted select <strong>Content > Edit > Blog</strong>. When publishing a new post fill out the Title, Blog Title, and add the copy of the post into the "Body". The text of the post can be manipulated using the buttons above the <a href="http://en.wikipedia.org/wiki/WYSIWYG" target="_blank">WYSIWYG</a>.To directly edit the HTML of the post, select "Source". Other features include bold, italics, paste from word, adding links, super/sub-scripting, and many more.</p>
+                    <p>The date of the post can be changed to a previous or future date using the "Date" tab. To remove a post without deleting it from the system, select the "Options" tab, set the "Status" to "closed" and then press submit.</p>
+                    <div class="alert alert-info">
+                      A note about "Titles" in ExpressionEngine: You may notice that many types of content have a "Title" and a "Blog Title" or "News Title". ExpressionEngine requires every post to have a unique "Title" that it uses to identify each post in the system. The other title on the page is what will be displayed on the page.
+                    </div>
+                  </div>
+                </div>
+
+              <h2 id="careers">Careers</h2>
+              <h2 id="distributors">Distributors</h2>
+              <h2 id="events">Events</h2>
+              <h2 id="faqs">FAQs</h2>
+              <h2 id="genes">Genes</h2>
+              <h2 id="homepage">Homepage</h2>
+              <h2 id="leadership">Leadership</h2>
+              <h2 id="news">News</h2>
+              <h2 id="pages">Pages</h2>
+              <h2 id="posters">Posters</h2>
+              <h2 id="presentations">Presentations</h2>
+              <h2 id="probes">Probes</h2>
+              <h2 id="products">Products</h2>
+              <h2 id="publications">Publications</h2>
+              <h2 id="technical-documentation">Technical Documentation</h2>
+              <h2 id="training-videos">Training Videos</h2>
+              <h2 id="webinars">Webinars</h2>
+            <h1>Managing the Store</h1>
+              <h2 id="reviewing-orders">Reviewing your Orders</h2>
+              <h2 id="closing-orders">Closing Orders that have been Completed</h2>
+              <h2 id="generating-reports">Generating Reports</h2>
+            <h1>Working with Forms</h1>
+              <h2 id="faq-submissions">Frequently Asked Question Submissions</h2>
+              <h2 id="editing-auto-responders">Editing Auto Responders</h2>
+              <h2 id="contact-form-submissions">Contact Form Submissions</h2>
+
+        </div><!--/span-->
+
+	</div><!--/row-->
+</div><!--/container-->
+
+<!-- @include "partials/footer" -->
