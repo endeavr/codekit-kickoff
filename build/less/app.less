@@ -28,3 +28,41 @@
 
 // Mobile Specific Styles & Settings
 @import "partials/mobile";
+
+
+/* ==========================================================================
+   Audacity custom styles
+   ========================================================================== */
+
+.sidebar-nav-fixed {
+    position:fixed;
+    top:60px;
+    width:18.97%;
+}
+
+h2 {
+	font-size:25px;
+}
+
+.red-star {
+    color:red;
+}
+
+.caption {
+    font-style:italic;
+    font-size:13px;
+}
+
+
+@media (max-width: 767px) {
+    .sidebar-nav-fixed {
+        position:static;
+        width:auto;
+    }
+}
+
+@media (max-width: 979px) {
+    .sidebar-nav-fixed {
+        top:70px;
+    }
+}
