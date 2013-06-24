@@ -1,2 +1,6 @@
 
 .DS_Store
+
+/app/_/css
+/app/_/js
+/app/index.html
