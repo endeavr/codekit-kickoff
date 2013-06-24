@@ -34,10 +34,42 @@
    Audacity custom styles
    ========================================================================== */
 
+.navbar-fixed-top .navbar-inner {
+	border-radius:0;
+	height:90px;
+}
+
+.acd-brand {
+	width:115px;
+	height:auto;
+	padding:20px 0;
+}
+
+.website-title {
+	color:#fff;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	font-size:24px;
+	margin:20px 0;
+	display:block;
+}
+
+.audacity-brand {
+	width:165px;
+	height:auto;
+	padding:25px 0;
+}
+
 .sidebar-nav-fixed {
     position:fixed;
-    top:60px;
+    top:110px;
     width:18.97%;
+}
+
+.main {
+	position:relative;
+	top:110px;
 }
 
 h2 {
@@ -53,16 +85,33 @@ h2 {
     font-size:13px;
 }
 
+@media (max-width: 979px) {
 
-@media (max-width: 767px) {
     .sidebar-nav-fixed {
-        position:static;
-        width:auto;
+
+    }
+
+    .main {
+	    top:0;
     }
 }
 
-@media (max-width: 979px) {
+@media (max-width: 767px) {
+
     .sidebar-nav-fixed {
-        top:70px;
+        position:static;
+        width:auto;
+        top:0;
+        height:120px;
     }
+
+	.acd-brand.pull-left,
+	.acd-audacity.pull-right {
+		float:none;
+	}
+
+    .website-title {
+
+    }
+
 }

@@ -165,14 +165,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/kits\/partials\/navmobile.kit" : {
+    "\/app\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/navmobile.kit",
-      "outputAbbreviatedPath" : "\/html\/navmobile.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/app\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
     },
     "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.min.css" : {
       "ignoreWasSetByUser" : 0,
@@ -182,15 +182,6 @@
       "inputAbbreviatedPath" : "\/app\/lib\/font-awesome\/3.2.1\/css\/font-awesome.min.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/app\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
     },
     "\/app\/lib\/jquery\/2.0.2\/jquery.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -260,15 +251,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/build\/kits\/partials\/footer.kit" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 1,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/build\/kits\/partials\/footer.kit",
-      "outputAbbreviatedPath" : "\/html\/footer.html",
-      "fileType" : 65536
-    },
     "\/app\/lib\/bootstrap\/2.3.2\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -279,6 +261,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
       "fileType" : 64
+    },
+    "\/build\/kits\/partials\/footer.kit" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/footer.kit",
+      "outputAbbreviatedPath" : "\/html\/footer.html",
+      "fileType" : 65536
     },
     "\/app\/_\/img\/ce-cache-partial.png" : {
       "ignoreWasSetByUser" : 0,
@@ -476,6 +467,17 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/app\/_\/img\/audacity_logo_white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/audacity_logo_white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/audacity_logo_white.png",
+      "initialSize" : 11428,
+      "fileType" : 8192
+    },
     "\/build\/kits\/partials\/header.kit" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -484,6 +486,17 @@
       "inputAbbreviatedPath" : "\/build\/kits\/partials\/header.kit",
       "outputAbbreviatedPath" : "\/html\/header.html",
       "fileType" : 65536
+    },
+    "\/app\/_\/img\/acd_logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/acd_logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/acd_logo.png",
+      "initialSize" : 13852,
+      "fileType" : 8192
     },
     "\/app\/_\/img\/ce-cache-home.png" : {
       "ignoreWasSetByUser" : 0,
@@ -562,6 +575,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/app\/_\/img\/overview.png",
       "initialSize" : 452833,
+      "fileType" : 8192
+    },
+    "\/app\/_\/img\/acdbio_logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/acdbio_logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/acdbio_logo.png",
+      "initialSize" : 7942,
       "fileType" : 8192
     },
     "\/build\/less\/bootstrap\/sprites.less" : {
@@ -796,17 +820,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/app\/_\/img\/importing_members_to_profile.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
-      "initialSize" : 162575,
-      "fileType" : 8192
-    },
     "\/build\/less\/globals\/custom-mixins.less" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -819,6 +832,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/app\/_\/img\/importing_members_to_profile.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/importing_members_to_profile.png",
+      "initialSize" : 162575,
+      "fileType" : 8192
     },
     "\/build\/less\/bootstrap\/labels-badges.less" : {
       "ignoreWasSetByUser" : 0,
@@ -976,6 +1000,15 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/build\/kits\/partials\/titlebar.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/build\/kits\/partials\/titlebar.kit",
+      "outputAbbreviatedPath" : "\/html\/titlebar.html",
+      "fileType" : 65536
     },
     "\/build\/less\/bootstrap\/forms.less" : {
       "ignoreWasSetByUser" : 0,

@@ -19,31 +19,40 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<header class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container-fluid">
-      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="#">ACDbio.com Website User Guide</a>
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-
-        </ul>
-      </div><!--/.nav-collapse -->
+    	<div class="row-fluid">
+    		<div class="span3">
+				<a class="acd-brand pull-left" href="http://acdbio.com">
+					<img src="/_/img/acd_logo.png" alt="ACD Bio" title="ACD Bio" width="115" height="50">
+				</a>
+			</div>
+			<div class="span6">
+				<a class="website-title" href="/">ACDbio.com Website User Guide</a>
+			</div>
+			<div class="span3 hidden-phone">
+				<a class="audacity-brand pull-right" href="http://audacityhealth.com">
+					<img src="/_/img/audacity_logo_white.png" alt="Audacity Health" title="Audacity Health" width="165" height="40">
+				</a>
+			</div>
+		</div>
     </div>
   </div>
-</div>
-<div id="viewport" class="container-fluid">
+</header>
+<div id="viewport" class="main">
+<div class="container-fluid">
 	<div class="row-fluid">
 
 	<div class="span3">
-  <div class="well sidebar-nav sidebar-nav-fixed">
-    <ul class="nav nav-list">
-      <h4>Table of Contents</h4>
-	  <li class="nav-header">Website Administration</li>
+	<a class="btn mobile-nav-toggle" data-toggle="collapse" data-target=".mobile-nav-collapse">
+		<i class="icon-reorder">&nbsp;</i>&nbsp;Primary Navigation
+	</a>
+	<div class="mobile-nav-collapse nav-collapse collapse">
+	  	<div class="well sidebar-nav sidebar-nav-fixed">
+	    	<ul class="nav nav-list">
+				<h4>Table of Contents</h4>
+				<li class="nav-header">Website Administration</li>
 <li class="active"><a href="#overview">Overview</a></li>
 <li><a href="#logging-into-dash">Logging into the Dashboard</a></li>
 <li><a href="#intro-to-ee">Introduction to Expression Engine</a></li>
@@ -76,8 +85,9 @@
 <li class="nav-header">Working with Forms</li>
 <li><a href="#faq-submissions">Frequently Asked Question Submissions</a></li>
 <li><a href="#editing-auto-responders">Editing Auto Responders</a></li>
-<li><a href="#contact-form-submissions">Contact Form Submissions</a></li>    </ul>
-  </div><!--/.well -->
+<li><a href="#contact-form-submissions">Contact Form Submissions</a></li>			</ul>
+		</div><!--/.well -->
+	</div>
 </div><!--/span-->
         <div class="span9">
             <h1>Website Administration</h1>
@@ -266,6 +276,7 @@
 
 	</div><!--/row-->
 </div><!--/container-->
+</div><!--/viewport main-->
 
 		<script src="_/js/libraries.min.js"></script>
 		<script src="_/js/app.min.js"></script>
