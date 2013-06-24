@@ -10,13 +10,13 @@
 
 // Color Palette & Mixins for the Application
 // ------------------------------------------------------------------------
-@import "globals/colors";
-@import "globals/custom-mixins";
-@import "globals/fonts";
+//@import "globals/colors";
+//@import "globals/custom-mixins";
+//@import "globals/fonts";
 
 // Globals
 // ------------------------------------------------------------------------
-@import "globals/defaults";
+//@import "globals/defaults";
 
 // Start Application Styles & Settings
 // ------------------------------------------------------------------------
@@ -37,6 +37,8 @@
 .navbar-fixed-top .navbar-inner {
 	border-radius:0;
 	height:90px;
+	background:#eee;
+	border-color:#ccc;
 }
 
 .acd-brand {
@@ -46,7 +48,7 @@
 }
 
 .website-title {
-	color:#fff;
+	color:#444;
 	text-align:center;
 	height:50px;
 	line-height:50px;
@@ -58,7 +60,8 @@
 .audacity-brand {
 	width:165px;
 	height:auto;
-	padding:25px 0;
+	padding:25px;
+	background:#000;
 }
 
 .sidebar-nav-fixed {
@@ -98,11 +101,13 @@ h2 {
 
 @media (max-width: 767px) {
 
+	.navbar-fixed-top .navbar-inner {
+		height:130px;
+	}
+
     .sidebar-nav-fixed {
         position:static;
         width:auto;
-        top:0;
-        height:120px;
     }
 
 	.acd-brand.pull-left,
@@ -110,8 +115,19 @@ h2 {
 		float:none;
 	}
 
-    .website-title {
+	.acd-brand.pull-left {
+		display:block;
+	}
 
+	.acd-brand.pull-left {
+		margin:auto;
+	}
+
+    .website-title {
+		height:20px;
+		line-height:20px;
+		font-size:20px;
+		margin:10px 0;
     }
 
 }

@@ -1,2 +1,10 @@
 
 .DS_Store
+
+/app/index.html
+
+### CodeKit ###
+*/codekit-config.json
+/app/_/css
+/app/_/js
+/codekit-config.json
