@@ -10,13 +10,13 @@
 
 // Color Palette & Mixins for the Application
 // ------------------------------------------------------------------------
-@import "globals/colors";
-@import "globals/custom-mixins";
-@import "globals/fonts";
+//@import "globals/colors";
+//@import "globals/custom-mixins";
+//@import "globals/fonts";
 
 // Globals
 // ------------------------------------------------------------------------
-@import "globals/defaults";
+//@import "globals/defaults";
 
 // Start Application Styles & Settings
 // ------------------------------------------------------------------------
@@ -34,10 +34,45 @@
    Audacity custom styles
    ========================================================================== */
 
+.navbar-fixed-top .navbar-inner {
+	border-radius:0;
+	height:90px;
+	background:#eee;
+	border-color:#ccc;
+}
+
+.acd-brand {
+	width:115px;
+	height:auto;
+	padding:20px 0;
+}
+
+.website-title {
+	color:#444;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	font-size:24px;
+	margin:20px 0;
+	display:block;
+}
+
+.audacity-brand {
+	width:165px;
+	height:auto;
+	padding:25px;
+	background:#000;
+}
+
 .sidebar-nav-fixed {
     position:fixed;
-    top:60px;
+    top:110px;
     width:18.97%;
+}
+
+.main {
+	position:relative;
+	top:110px;
 }
 
 h2 {
@@ -53,16 +88,46 @@ h2 {
     font-size:13px;
 }
 
+@media (max-width: 979px) {
+
+    .sidebar-nav-fixed {
+
+    }
+
+    .main {
+	    top:0;
+    }
+}
 
 @media (max-width: 767px) {
+
+	.navbar-fixed-top .navbar-inner {
+		height:130px;
+	}
+
     .sidebar-nav-fixed {
         position:static;
         width:auto;
     }
-}
 
-@media (max-width: 979px) {
-    .sidebar-nav-fixed {
-        top:70px;
+	.acd-brand.pull-left,
+	.acd-audacity.pull-right {
+		float:none;
+	}
+
+	.acd-brand.pull-left {
+		display:block;
+	}
+
+	.acd-brand.pull-left {
+		margin:auto;
+	}
+
+    .website-title {
+		height:20px;
+		line-height:20px;
+		font-size:20px;
+		margin:10px 0;
     }
+
 }

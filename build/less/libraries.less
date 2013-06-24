@@ -6,15 +6,28 @@
 
 // Bootstrap: http://twitter.github.com/bootstrap
 // DO NOT USE WITH NORMALIZE
-@import "../../lib/bootstrap/2.3.2/css/bootstrap-responsive.min.css";
-@import "../../lib/bootstrap/2.3.2/css/bootstrap.min.css";
+// @import "../../lib/bootstrap/2.3.2/css/bootstrap-responsive.min.css";
+// @import "../../lib/bootstrap/2.3.2/css/bootstrap.min.css";
 
 // Normalize: http://necolas.github.com/normalize.css
 // DO NOT USE WITH TWITTER BOOTSTRAP
 // @import "../../lib/normalize/2.1.2/normalize.css";
 
+// Include Bootstrap as LESS
+
+@import "/bootstrap/bootstrap.less";
+@import "/bootstrap/responsive.less";
+
+// IE10 Metro responsive
+// Required for Windows 8 Metro split-screen snapping with IE10
+// Source: http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+
+@-ms-viewport{
+  width: device-width;
+}
+
 // Step Two: Include (default) Font Awesome for outstanding Font-based iconography
 
 // Font Awesome: http://fortawesome.github.com/Font-Awesome
-@import "../../lib/font-awesome/3.1.1/css/font-awesome.min.css"; 
-@import "../../lib/font-awesome/3.1.1/css/font-awesome-ie7.min.css";
+@import "../../lib/font-awesome/3.2.1/css/font-awesome.min.css";
+@import "../../lib/font-awesome/3.2.1/css/font-awesome-ie7.min.css";
