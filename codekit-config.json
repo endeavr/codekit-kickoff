@@ -280,6 +280,17 @@
       "outputAbbreviatedPath" : "\/app\/js\/bootstrap.min.min.js",
       "fileType" : 64
     },
+    "\/app\/_\/img\/ce-cache-partial.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/app\/_\/img\/ce-cache-partial.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/app\/_\/img\/ce-cache-partial.png",
+      "initialSize" : 149615,
+      "fileType" : 8192
+    },
     "\/build\/less\/bootstrap\/responsive-1200px-min.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -292,17 +303,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/app\/_\/img\/ce-cache-partial.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/app\/_\/img\/ce-cache-partial.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/app\/_\/img\/ce-cache-partial.png",
-      "initialSize" : 149615,
-      "fileType" : 8192
     },
     "\/build\/less\/bootstrap\/component-animations.less" : {
       "ignoreWasSetByUser" : 0,
