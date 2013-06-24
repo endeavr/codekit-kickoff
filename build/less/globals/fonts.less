@@ -5,17 +5,17 @@
 // Step One: If importing from an external source (i.e. Google Fonts), declare them here when using @import
 
 // Font Docs: http://www.google.com/fonts/specimen/Source+Sans+Pro
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
 
 // Step Two: Declare a Primary and Secondary font selection here
 
-@font-primary: 'Source Sans Pro';
+@font-primary: 'Open Sans', sans-serif;
 @font-secondary: 'Arial';
 
 
 // Custom Font Mixin for easy declaration of customized fonts on elements
 
-.custom-font(@color:@default,@family:@font-primary,@size:14px,@style:normal,@weight:400) { 
+.custom-font(@color:@default,@family:@font-primary,@size:14px,@style:normal,@weight:400) {
 	// Organized alphabetically (color -> weight)
 	color: @color;
 	font-family: @family;

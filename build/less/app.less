@@ -10,13 +10,13 @@
 
 // Color Palette & Mixins for the Application
 // ------------------------------------------------------------------------
-//@import "globals/colors";
-//@import "globals/custom-mixins";
-//@import "globals/fonts";
+@import "globals/colors";
+@import "globals/custom-mixins";
+@import "globals/fonts";
 
 // Globals
 // ------------------------------------------------------------------------
-//@import "globals/defaults";
+@import "globals/defaults";
 
 // Start Application Styles & Settings
 // ------------------------------------------------------------------------
@@ -58,9 +58,9 @@
 }
 
 .audacity-brand {
-	width:165px;
+	width:130px;
 	height:auto;
-	padding:25px;
+	padding:29px;
 	background:#000;
 }
 
@@ -90,9 +90,9 @@ h2 {
 
 @media (max-width: 979px) {
 
-    .sidebar-nav-fixed {
-
-    }
+	.navbar-fixed-top .navbar-inner {
+		padding:0;
+	}
 
     .main {
 	    top:0;
